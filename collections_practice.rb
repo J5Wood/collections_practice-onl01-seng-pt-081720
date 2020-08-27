@@ -41,8 +41,9 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.reject { |y| y == array[1] }
   array.map do |x|
       x << "s"
-  
   end
+  
 end
