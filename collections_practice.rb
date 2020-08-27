@@ -29,9 +29,9 @@ end
 def find_a(array)
   new_list = []
   array.collect do |x|
-    if x.start_with?(a)
+    x.start_with?(a)
       new_list <<
-  
+    
   end
   new_list
 end
