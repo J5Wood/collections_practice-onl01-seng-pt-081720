@@ -43,9 +43,7 @@ end
 def add_s(array)
   place_holder = array[1]
   binding.pry
-  array.collect { |x| x << "s"}
+  array.collect { |x| x << "s" }
   binding.pry
-  array[1] = place_holder
-  binding.pry
-  array
+  
 end
