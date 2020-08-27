@@ -44,4 +44,5 @@ def add_s(array)
   place_holder = array[1]
   array.collect { |x| x << "s"}
   array[1] = place_holder
+  array
 end
