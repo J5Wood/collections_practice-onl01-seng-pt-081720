@@ -41,9 +41,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[1].freeze
-
   array.collect { |x| x << "s" }
+  array[1].tr(s)
   
 
 end
