@@ -33,4 +33,5 @@ def find_a(array)
       new_list <<
     end
   end
+  new_list
 end
