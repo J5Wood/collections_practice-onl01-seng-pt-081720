@@ -43,6 +43,6 @@ end
 def add_s(array)
   array.collect { |x| x << "s" }
   array[1].tr(s)
-  
+
 
 end
