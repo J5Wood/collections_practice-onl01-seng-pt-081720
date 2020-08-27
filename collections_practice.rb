@@ -13,10 +13,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  x = array[2]
+  x = array[1]
   binding.pry
-  array[2] = array[3]
+  array[1] = array[2]
   binding.pry
-  array[3] = x
+  array[2] = x
 
 end
