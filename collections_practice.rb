@@ -42,8 +42,8 @@ end
 
 def add_s(array)
   array[1].freeze
-  
+
   array.collect { |x| x << "s" }
-  binding.pry
+  
 
 end
