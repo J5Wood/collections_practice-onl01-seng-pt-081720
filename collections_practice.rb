@@ -42,8 +42,7 @@ end
 
 def add_s(array)
   array.collect { |x| x << "s" }
-  array[1].tr("s","")
-  binding.pry
+  array = array[1].tr("s","")
 
 
 end
