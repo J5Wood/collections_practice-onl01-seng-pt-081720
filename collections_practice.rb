@@ -41,10 +41,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.reject do |y| y == array[1]
-    array.map do |x|
-      x << "s"
-    end
-  end
-  array
+  place_holder = array[1]
+  array.collect { |x| x << "s"}
+  array[1] = place_holder
 end
