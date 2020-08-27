@@ -35,3 +35,7 @@ def find_a(array)
   end
   new_list
 end
+
+def sum_array(array)
+  array.sum
+end
