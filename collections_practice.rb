@@ -41,9 +41,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  place_holder = []
-  place_holder << array[1]
-  binding.pry
+  array[1].freeze
+  
   array.collect { |x| x << "s" }
   binding.pry
 
