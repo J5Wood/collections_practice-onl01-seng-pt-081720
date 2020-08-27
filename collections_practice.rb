@@ -31,7 +31,7 @@ def find_a(array)
   array.collect do |x|
     if x.start_with?(a)
       new_list <<
-    end
+  
   end
   new_list
 end
