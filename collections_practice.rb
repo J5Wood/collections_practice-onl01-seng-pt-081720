@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(array)
   array.sort
 end
@@ -14,6 +15,7 @@ def swap_elements(array)
   x = array[2]
   binding.pry
   array[2] = array[3]
+  binding.pry
   array[3] = x
 
 end
