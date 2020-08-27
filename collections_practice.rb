@@ -25,3 +25,14 @@ def kesha_maker(array)
   array.map { |x| x[2]= "$"}
   array
 end
+
+def find_a(array)
+  new_list = []
+  array.collect do |x| 
+    if x.start_with?(a)
+      new_list <<
+    end
+  end
+end
+      
+      
